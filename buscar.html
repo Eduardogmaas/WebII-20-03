@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<h1></h1>
+</head>
+    <body>
+        <h2>Buscar Post por ID</h2>
+        <label>
+            <input type="number" id="postId">
+        </label>
+        <button onclick="buscar()">Buscar</button>
+
+        <div id="resultado"></div>
+
+        <script>
+            function buscar() {
+                const id- document.getElementById('postId').value;
+
+                if (!id) {
+                    document.getElementById('resultado').innerHTML = '<p>Digite um ID.</p>'
+                }
+            }
+        </script>
+
+    </body>
+</html>
